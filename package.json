@@ -1,14 +1,13 @@
 {
-  "name": "procwatch",
+  "name": "procmon",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && node dist/procwatch.js"
+    "start": "tsc && node dist/procmon.js"
   },
-  "keywords": [],
+  "bin": {
+    "procmon":"./dist/procmon.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
