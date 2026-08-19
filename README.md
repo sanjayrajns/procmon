@@ -19,6 +19,12 @@ git clone <YOUR_GITHUB_REPOSITORY>
 cd procwatch
 ```
 `npm link `
-`procmon list
-procmon info <PID>
-procmon watch <PID>`
+Commands goes on with 
+To List all the PIDS 
+``procmon list ``
+
+Information to the Specific PID
+``procmon info <PID>``
+
+For CPU efficiency
+``procmon watch <PID>``
