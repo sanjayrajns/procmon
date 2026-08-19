@@ -17,14 +17,21 @@ Clone the repository:
 ```bash
 git clone <YOUR_GITHUB_REPOSITORY>
 cd procwatch
+npm link 
 ```
-`npm link `
-Commands goes on with 
+
+Commands goes on with:
+
 To List all the PIDS 
-``procmon list ``
+```bash 
+procmon list
+ ```
 
 Information to the Specific PID
+```bash
 ``procmon info <PID>``
-
+```
 For CPU efficiency
+```bash
 ``procmon watch <PID>``
+```
