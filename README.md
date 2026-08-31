@@ -1,6 +1,6 @@
 # procmon
 
-A Linux process introspection and monitoring CLI built with TypeScript and Node.js.
+A Linux process  CLI built with TypeScript and Node.js.
 
 procmon reads process information directly from Linux's `/proc` filesystem.
 
@@ -15,7 +15,7 @@ procmon reads process information directly from Linux's `/proc` filesystem.
 Clone the repository:
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY>
+git clone <repo_link>
 cd procwatch
 npm link 
 ```
